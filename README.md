@@ -5,7 +5,7 @@ This project was developed as part of my work as **Market Team Manager for UT Fa
 
 I engineered an **interactive Shiny dashboard** that integrates sales, attendance, and volunteer data across UT Farm Stand’s Fall 2024 - Spring 2025 markets. The tool enables the Market Team to monitor KPIs throughout the year, forecast this data for upcoming Fall 2025 markets, and make data-driven decisions to optimize profitability and affordability, adjust product sourcing and inventory levels, and enhance the overall market experience.
 
-**Live App:** [UTFS_Market_Analytics Dashboard on shinyapps.io](https://quinnhungerford.shinyapps.io/utfs_market_data/)  
+**Live App:** [UTFS Market Analytics Dashboard on shinyapps.io](https://quinnhungerford.shinyapps.io/utfs_market_data/)  
 
 ---
 
@@ -87,12 +87,12 @@ All components are interactive, with filtering, selection tools, and hover toolt
 
 # Reproducibility
 To reproduce this dashboard:
-- Clone this repository and install required R packages:
+- Clone this repository and install the required R packages:
   - install.packages(c("shiny", "readxl", "dplyr", "ggplot2", "plotly", "DT", "tidyr", "lubridate", "rsconnect"))
-- Use the three dummy Excel workbooks in the /data folder.
+- Use the three dummy Excel workbooks provided in the /data folder.
 - Launch the dashboard locally with shiny::runApp("code/app.R").
-- Alternatively, view the live deployed app here: [UTFS_Market_Analytics Dashboard on shinyapps.io](https://quinnhungerford.shinyapps.io/utfs_market_data/)  
+- Or view the live deployed app here: [UTFS Market Analytics Dashboard on shinyapps.io](https://quinnhungerford.shinyapps.io/utfs_market_data/)  
 
 ---
 
-** This project was independently designed and developed by Quinn Hungerford as part of my work as Market Team Manager for UT Farm Stand (UT Austin).
+* This project was independently designed and developed by Quinn Hungerford as part of my work as Market Team Manager for UT Farm Stand (UT Austin). The dashboard actively supports the data-driven decision making of myself and my team, helping ensure the markets remain sustainable, financially feasible, and impactful so we can better serve the student community at UT Austin.*
