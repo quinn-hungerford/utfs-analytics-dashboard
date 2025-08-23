@@ -95,4 +95,4 @@ To reproduce this dashboard:
 
 ---
 
-* This project was independently designed and developed by Quinn Hungerford as part of my work as Market Team Manager for UT Farm Stand (UT Austin). The dashboard actively supports the data-driven decision making of myself and my team, helping ensure the markets remain sustainable, financially feasible, and impactful so we can better serve the student community at UT Austin.*
+*This project was independently designed and developed by Quinn Hungerford as part of my work as Market Team Manager for UT Farm Stand (UT Austin). The dashboard actively supports the data-driven decision making of myself and my team, helping ensure the markets remain sustainable, financially feasible, and impactful so we can better serve the student community at UT Austin.*
