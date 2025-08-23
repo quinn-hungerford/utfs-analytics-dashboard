@@ -32,7 +32,7 @@ UT Farm Stand organizes biweekly farmers markets throughout the semester. Histor
 
 # Data Sources
 
-The dashboard integrates UT Farm Stand’s internal Excel workbooks, which I designed in Fall 2024 based on both the key performance indicators we wanted to track moving forward and the historical data points recorded in earlier spreadsheets.
+The dashboard integrates UT Farm Stand’s internal Excel workbooks, which I designed in Fall 2024 based on both the key performance indicators we wanted to track moving forward and the historical data points recorded in earlier spreadsheets. **For confidentiality, this public repo includes only dummy datasets for reproducibility.**
 - Sales_Performance_Past.xlsx
   - Per-Market Sheets: Sales_YYYY-MM-DD (item-level rows: Item Number, Item Name, Category, Number Sold, Gross Sales)
   - Summary Sheet: Sales_Summary_2425 (Market Date, Total Items Sold, Total Gross Sales, Average Transaction Value)
@@ -41,7 +41,6 @@ The dashboard integrates UT Farm Stand’s internal Excel workbooks, which I des
 - Volunteer_Engagement_Past.xlsx
   - Per-Market Sheets: Volunteer_Engagement_YYYY-MM-DD (Volunteer Name, Hours Worked)
   - *Privacy Note: Volunteer names are anonymized to initials in the app with safe_initials().*
-**This public repo includes only dummy datasets for reproducibility.**
 
 ---
 
@@ -75,11 +74,10 @@ All components are interactive, with filtering, selection tools, and hover toolt
 # Repository Contents
 - `code/`
     - `app.R` → Main Shiny app script
-- `data/`
+- `data/` (All dummy datasets)
   - `Sales_Performance_Past.xlsx` → Excel workbook with per-market sales data sheets (Sales_YYYY-MM-DD) and a summary sheet (Sales_Summary_2425)
   - `Market_Attendance_Past.xlsx` → Single-sheet excel workbook with market attendance information
   - `Volunteer_Engagement_Past.xlsx` → Excel workbook with per-market volunteer data sheets (Volunteer_Engagement_YYYY-MM-DD)
-  - *Note: This public repo includes only dummy datasets for reproducibility (and sensitive raw data like volunteer names are excluded in the demo video).*
 - `presentation/`
   - `dashboard_demo.mp4` → Walkthrough video of the dashboard in use
 
