@@ -32,7 +32,7 @@ UT Farm Stand organizes biweekly farmers markets throughout the semester. Histor
 
 # Data Sources
 
-The dashboard integrates UT Farm Stand’s internal Excel workbooks, which I designed in Fall 2024 based on both the key performance indicators we wanted to track moving forward and the historical data points recorded in earlier spreadsheets. **For confidentiality, this public repo includes only dummy datasets for reproducibility.**
+The dashboard integrates UT Farm Stand’s internal Excel workbooks, which I designed in Fall 2024 based on both the key performance indicators we wanted to track moving forward and the historical data points recorded in earlier spreadsheets. **This public repo includes only dummy datasets for reproducibility.**
 - Sales_Performance_Past.xlsx
   - Per-Market Sheets: Sales_YYYY-MM-DD (item-level rows: Item Number, Item Name, Category, Number Sold, Gross Sales)
   - Summary Sheet: Sales_Summary_2425 (Market Date, Total Items Sold, Total Gross Sales, Average Transaction Value)
