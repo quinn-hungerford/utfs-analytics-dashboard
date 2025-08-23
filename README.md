@@ -78,7 +78,7 @@ All components are interactive, with filtering, selection tools, and hover toolt
   - `Sales_Performance_Past.xlsx` → Excel workbook with per-market sales data sheets (Sales_YYYY-MM-DD) and a summary sheet (Sales_Summary_2425)
   - `Market_Attendance_Past.xlsx` → Single-sheet excel workbook with market attendance information
   - `Volunteer_Engagement_Past.xlsx` → Excel workbook with per-market volunteer data sheets (Volunteer_Engagement_YYYY-MM-DD)
-- `presentation/`
+- `demo/`
   - `dashboard_demo.mp4` → Walkthrough video of the dashboard in use
 
 ---
