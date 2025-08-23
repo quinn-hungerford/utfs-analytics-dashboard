@@ -1,0 +1,4 @@
+# Tell GitHub Linguist how to classify files
+*.Rmd linguist-language=R
+*.Rmd linguist-detectable
+*.Rmd linguist-documentation=false
